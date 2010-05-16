@@ -12,6 +12,7 @@ Source0:	trac%{plugin}plugin.zip
 URL:		http://trac-hacks.org/wiki/TracReleasePlugin
 Patch0:		%{name}.patch
 BuildRequires:	python-devel
+BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
